@@ -5,11 +5,11 @@
 //782 -> 8
 //918 -> 1
 Console.Write("Введите число: ");
-int number = Convert.ToInt32(Concole.Readline());
+int number = Convert.ToInt32(Console.ReadLine());
 string numberText =Convert.ToString(number);
-if (numberText.Length > 2)
+if (numberText.Length >2)
 {
- Console.WriteLine("третья цифра -> " + numberText[2] );
+ Console.WriteLine("вторая цифра  -> " + numberText[1] );
 }
 else
 {
